@@ -1,4 +1,6 @@
-import { registerPlugin } from '@capacitor/core';
+import {Plugins} from '@capacitor/core';
+
+const {registerPlugin} = Plugins;
 
 import type { RateAppPlugin } from './definitions';
 
